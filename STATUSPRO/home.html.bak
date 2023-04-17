@@ -1,0 +1,42 @@
+<html>
+<head> <title> Details Page</title>
+</head>
+<body bgcolor=green > 
+	<form action=status.com method=post>
+	<h1 align=center> Enter Details </h1>
+	<hr>
+	<br>
+	<br>
+	<table align =center>
+	<tr> 
+	<td> Name</td>
+	<td> <input type=text name=name>
+	</tr>
+	<tr>
+	<td> Gender </td>
+	<td> <br><input type=radio name=gender value=male> Male
+	<br>
+		 <input type=radio name=gender value=female> Female
+	</tr>
+	<tr>
+	<td> Age</td>
+	<td> <input type=text name=age>
+	</tr>
+	<tr>
+	<td><br>Hobbies</td>
+	<td><br><input type=checkbox name=hob value=sleeping>Sleeping<br>
+		<input type=checkbox name=hob value=reading>Reading<br>
+		<input type=checkbox name=hob value=eating>Eating<br>
+		<input type=checkbox name=hob value=coding>Coding
+	</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td align=left> <br>
+	<input type=submit value=submit></td>
+	</tr>
+	</table>
+
+	</form>
+</body>
+</html>
